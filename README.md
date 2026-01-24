@@ -112,7 +112,7 @@ Training notebooks are included for transparency:
 
 ## 🎥 Project Demo Video
 Watch the complete working demo here:
-https://your-video-link
+[https://your-video-link](https://github.com/naitiiik31/Movies_Recommender/releases/tag/v1.0)
 
 ---
 
