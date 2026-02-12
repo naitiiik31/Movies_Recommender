@@ -3,6 +3,14 @@ import streamlit as st
 import pickle
 import re
 
+from flask import Flask
+
+app = Flask(__name__)
+@app.route("/")
+def home():
+    return render_template("index.html")
+
+
 API_BASE = "https://movie-rec-466x.onrender.com"
 TMDB_IMG = "https://image.tmdb.org/t/p/w500"
 OMDB_API_KEY = "3c99009e"
@@ -248,3 +256,6 @@ elif st.session_state.view == "details":
             cols=grid_cols,
             key_prefix="tfidf",
         )
+
+if __name__ == "__main__":
+    app.run()
