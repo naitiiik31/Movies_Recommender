@@ -9,3 +9,6 @@ nltk==3.8.1
 
 setuptools
 wheel
+
+setuptools
+wheel
