@@ -124,8 +124,6 @@ Watch the complete working demo here:
 
 🌐 Deploy as REST API using FastAPI or Flask
 
-🖥️ Frontend Integration using Streamlit or React
-
 🧠 Deep Learning Models (Word2Vec, BERT embeddings)
 
 ☁️ Cloud Deployment (AWS / Azure / GCP)
